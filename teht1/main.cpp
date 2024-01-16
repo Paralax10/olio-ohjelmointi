@@ -31,7 +31,7 @@ int game(int maxnum){
 
 int main()
 {
-    srand(20);
+    srand(time(0));
     int maxinum = 40;
     game(maxinum);
     cout <<"Arvauksia: "<<guesses<< endl;
