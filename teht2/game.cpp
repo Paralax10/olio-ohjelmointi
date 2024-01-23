@@ -13,7 +13,8 @@ Game::~Game(){
     cout<<"GAME DESTRUCTOR: object cleared from stack memory"<<endl;
 }
 void Game::play(){
-    //cout<<randomNumber<<endl;
+    cout<<"Play"<<endl;
+    cout<<randomNumber<<endl;
     while(playerGuess != randomNumber){
         cout<<"Give your guess between 1-"<<maxNumber<<endl;
         cin>>playerGuess;
