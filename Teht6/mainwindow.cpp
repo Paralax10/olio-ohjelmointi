@@ -85,7 +85,7 @@ void MainWindow::on_Num2_clicked()
 
 void MainWindow::on_Num3_clicked()
 {
-    qDebug("Num9 clicked");
+    qDebug("Num3 clicked");
     QString str = QStringLiteral("3");
     appendDigitToLineEdit(str);
 }
@@ -93,7 +93,7 @@ void MainWindow::on_Num3_clicked()
 
 void MainWindow::on_Num4_clicked()
 {
-    qDebug("Num9 clicked");
+    qDebug("Num4 clicked");
     QString str = QStringLiteral("4");
     appendDigitToLineEdit(str);
 }
